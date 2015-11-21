@@ -1,0 +1,164 @@
+header {
+    font-family: 'Monoid Regular';
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 50px;
+}
+h1 {
+    font-weight: 700;
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.2em;
+}
+h3 {
+    font-size: 1em;
+}
+.row {
+    margin-left: auto;
+    margin-right: auto;
+}
+#main {
+    padding: 25px 0;
+}
+
+#sentence-display {
+    font-family: monospace, monospace;
+}
+#sentence-counter {
+    font-weight: 100;
+}
+#subtitle {
+    font-weight: 100;
+}
+.section-divider {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.section-module {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.section-text {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+@media (min-width: 784px) {
+    #main {
+        width: 764px;
+    }
+    h1 {
+    	font-size: 3.0em;
+    }
+    h2 {
+        font-size: 1.2em;
+    }
+    h3 {
+        font-size: 1em;
+    }
+    #sentence-display {
+        margin-left: 0;
+        /*padding: 1% 0;*/
+    }
+}
+@media (min-width: 888px) {
+    #main {
+        width: 865px;
+    }
+    .section-divider {
+        margin-top: 0;
+        margin-bottom: 25px;
+    }
+    h1 {
+    	font-size: 3.5em;
+    }
+    h2 {
+        font-size: 1.4em;
+    }
+    h3 {
+        font-size: 1.2em;
+    }
+}
+@media (min-width: 992px) {
+    #main {
+        width: 967px;
+    }
+    h1 {
+        font-weight: bold;
+    	font-size: 4em;
+    }
+    h2 {
+        font-size: 1.6em;
+    }
+    h3 {
+        font-size: 1.4em;
+    }
+}
+@media (min-width: 1096px) {
+    #main {
+        width: 1068px;
+    }
+    h1 {
+        font-weight: bold;
+    	font-size: 4.5em;
+    }
+    h2 {
+        font-size: 1.8em;
+    }
+    h3 {
+        font-size: 1.6em;
+    }
+}
+@media (min-width: 1200px) {
+    #main {
+        width: 1170px;
+    }
+    h1 {
+        font-weight: bold;
+    	font-size: 5em;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    h3 {
+        font-size: 1.8em;
+    }
+}
+
+/*
+a:link {
+    color: #8ed3f3;
+}
+a:visited {
+
+}
+a:hover, a:active {
+    color: #b9dded;
+    text-decoration: underline;
+}*/
+
+a:link {
+
+}
+a:visited {
+    color: #9c2f6f;
+}
+a:hover, a:active {
+    text-decoration: underline;
+}
+/*
+a:active {
+    color: #3e8bcf;
+    text-decoration: underline;
+}*/
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
