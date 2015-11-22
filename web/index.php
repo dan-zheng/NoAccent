@@ -28,9 +28,9 @@
 <body id='home'>
     <section>
         <div class='container text-center'>
-          <div class='section-module'>
-              <h1 class='section-center section-divider text-center' id='title'><img id='cat' src='cat-nobg.png'></img>NoAccent!</h1>
-              <h3 class='section-divider' id='subtitle'>A foreign accent correction app.</h3>
+            <div class='section-module'>
+                <h1 class='section-center section-divider text-center' id='title'><img id='cat' src='cat-nobg.png'></img>NoAccent!</h1>
+                <h3 class='section-divider' id='subtitle'>A foreign accent correction app.</h3>
           </div>
         </div>
     </section>
@@ -54,8 +54,8 @@
                 <h3 class='purple relative-center section-center section-divider text-center'>How?</h3>
                 <h4 class="white">
                     <ul>
-                        <li><span class='purple'>NoAccent!</span> uses facial recognition to detect the user's mouth. It overlays an animation of the common mouth movement for native English speakers and the user's mouth movement recording with </li>
-                        <li>It also provides a lateral view comparison through analyzing sound frequencies to identify a user's lip and tongue position</li>
+                        <li><span class='purple'>NoAccent!</span> records the user's mouth while he/she speaks. It overlays an animation of the mouth movement for native English speakers over user's mouth movement.</li>
+                        <li>The app also provides a lateral view comparison that approximates a user's lip and tongue positions.</li>
                     </ul>
                 </h4>
             </div>
@@ -130,8 +130,8 @@
                 <h3 class='white text-center section-title'>Here's a mockup of our app.</h3>
                 <div class='text-center wrap'>
                     <!--<iframe id='demo-video' src="https://player.vimeo.com/video/139043174" width="960px" height="540px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
-                    <img class='auto-resize section-divider' src='img/lateraldemo1.png'></img>
-                    <img class='auto-resize section-divider' src='img/lateraldemo2.png'></img>
+                    <img class='auto-resize section-divider' src='img/front.png'></img>
+                    <img class='auto-resize section-divider' src='img/lateral.png'></img>
                 </div>
             </div>
         </div>
