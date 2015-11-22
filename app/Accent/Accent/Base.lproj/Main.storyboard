@@ -9,6 +9,7 @@
         <!--Word Picker View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="WordPickerViewController" customModule="Accent" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
@@ -75,6 +76,10 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="8Go-TY-yTk"/>
                                 </connections>
                             </tableView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="5AK-ol-CDM">
+                                <rect key="frame" x="400" y="401" width="39" height="37"/>
+                                <animations/>
+                            </pageControl>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -120,16 +125,15 @@
                     </view>
                     <connections>
                         <outlet property="tableView" destination="arC-mQ-24r" id="hla-uP-RJV"/>
-                        <segue destination="aQY-63-r9L" kind="show" identifier="ShowWordView" id="5hf-1L-WDH"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-487.5" y="422.25"/>
         </scene>
         <!--Word View Controller-->
         <scene sceneID="16E-qy-ijE">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kzx-ib-fLT" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="aQY-63-r9L" customClass="WordViewController" customModule="Accent" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6vC-l2-qTI"/>
@@ -149,15 +153,6 @@
                                     <rect key="frame" x="58" y="197" width="284" height="67"/>
                                 </variation>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vIM-K3-BhE">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <state key="normal" title="Back"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="26" y="216" width="54" height="30"/>
-                                </variation>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iBs-qH-RTZ">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <animations/>
@@ -182,7 +177,6 @@
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="KB0-EH-WLu"/>
-                                <exclude reference="vIM-K3-BhE"/>
                                 <exclude reference="iBs-qH-RTZ"/>
                                 <exclude reference="6Nt-cR-vv1"/>
                             </mask>
@@ -190,7 +184,6 @@
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="KB0-EH-WLu"/>
-                                <include reference="vIM-K3-BhE"/>
                                 <include reference="iBs-qH-RTZ"/>
                                 <include reference="6Nt-cR-vv1"/>
                             </mask>
@@ -202,7 +195,6 @@
                         <outlet property="wordLabel" destination="KB0-EH-WLu" id="3Ll-wM-YG0"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="kzx-ib-fLT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="538.5" y="422.25"/>
         </scene>
