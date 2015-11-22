@@ -8,17 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2E3270981C0195F900536C62 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3270971C0195F900536C62 /* TransitionManager.swift */; };
-		2E3270A61C019DD700536C62 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E32709A1C019DD700536C62 /* Event.swift */; };
-		2E3270A71C019DD700536C62 /* EventReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E32709B1C019DD700536C62 /* EventReference.swift */; };
-		2E3270A81C019DD700536C62 /* EventSubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E32709C1C019DD700536C62 /* EventSubscription.swift */; };
-		2E3270A91C019DD700536C62 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E32709D1C019DD700536C62 /* Info.plist */; };
-		2E3270AA1C019DD700536C62 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E32709F1C019DD700536C62 /* Observable.swift */; };
-		2E3270AB1C019DD700536C62 /* ObservableChainingProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3270A01C019DD700536C62 /* ObservableChainingProxy.swift */; };
-		2E3270AC1C019DD700536C62 /* ObservableProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3270A11C019DD700536C62 /* ObservableProxy.swift */; };
-		2E3270AD1C019DD700536C62 /* ObservableReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3270A21C019DD700536C62 /* ObservableReference.swift */; };
-		2E3270AE1C019DD700536C62 /* OwningEventReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3270A31C019DD700536C62 /* OwningEventReference.swift */; };
-		2E3270AF1C019DD700536C62 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3270A41C019DD700536C62 /* Protocols.swift */; };
-		2E3270B01C019DD700536C62 /* TupleObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3270A51C019DD700536C62 /* TupleObservable.swift */; };
+		2E57A1141C02197100536C62 /* ResourceCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E57A1131C02197100536C62 /* ResourceCache.swift */; };
+		2E73AEC51C01E17F00536C62 /* LateralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E73AEC41C01E17F00536C62 /* LateralViewController.swift */; };
 		2ECDADC31C01057100536C62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECDADC21C01057100536C62 /* AppDelegate.swift */; };
 		2ECDADC81C01057100536C62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ECDADC61C01057100536C62 /* Main.storyboard */; };
 		2ECDADCA1C01057100536C62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ECDADC91C01057100536C62 /* Assets.xcassets */; };
@@ -30,18 +21,8 @@
 
 /* Begin PBXFileReference section */
 		2E3270971C0195F900536C62 /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
-		2E32709A1C019DD700536C62 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
-		2E32709B1C019DD700536C62 /* EventReference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventReference.swift; sourceTree = "<group>"; };
-		2E32709C1C019DD700536C62 /* EventSubscription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventSubscription.swift; sourceTree = "<group>"; };
-		2E32709D1C019DD700536C62 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2E32709E1C019DD700536C62 /* Observable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observable.h; sourceTree = "<group>"; };
-		2E32709F1C019DD700536C62 /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
-		2E3270A01C019DD700536C62 /* ObservableChainingProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableChainingProxy.swift; sourceTree = "<group>"; };
-		2E3270A11C019DD700536C62 /* ObservableProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableProxy.swift; sourceTree = "<group>"; };
-		2E3270A21C019DD700536C62 /* ObservableReference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableReference.swift; sourceTree = "<group>"; };
-		2E3270A31C019DD700536C62 /* OwningEventReference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OwningEventReference.swift; sourceTree = "<group>"; };
-		2E3270A41C019DD700536C62 /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
-		2E3270A51C019DD700536C62 /* TupleObservable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TupleObservable.swift; sourceTree = "<group>"; };
+		2E57A1131C02197100536C62 /* ResourceCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceCache.swift; sourceTree = "<group>"; };
+		2E73AEC41C01E17F00536C62 /* LateralViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LateralViewController.swift; sourceTree = "<group>"; };
 		2ECDADBF1C01057100536C62 /* Accent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Accent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ECDADC21C01057100536C62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2ECDADC71C01057100536C62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -64,26 +45,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2E3270991C019DD700536C62 /* Observable-Swift */ = {
-			isa = PBXGroup;
-			children = (
-				2E32709A1C019DD700536C62 /* Event.swift */,
-				2E32709B1C019DD700536C62 /* EventReference.swift */,
-				2E32709C1C019DD700536C62 /* EventSubscription.swift */,
-				2E32709D1C019DD700536C62 /* Info.plist */,
-				2E32709E1C019DD700536C62 /* Observable.h */,
-				2E32709F1C019DD700536C62 /* Observable.swift */,
-				2E3270A01C019DD700536C62 /* ObservableChainingProxy.swift */,
-				2E3270A11C019DD700536C62 /* ObservableProxy.swift */,
-				2E3270A21C019DD700536C62 /* ObservableReference.swift */,
-				2E3270A31C019DD700536C62 /* OwningEventReference.swift */,
-				2E3270A41C019DD700536C62 /* Protocols.swift */,
-				2E3270A51C019DD700536C62 /* TupleObservable.swift */,
-			);
-			name = "Observable-Swift";
-			path = "Observable-Swift/Observable-Swift";
-			sourceTree = "<group>";
-		};
 		2ECDADB61C01057100536C62 = {
 			isa = PBXGroup;
 			children = (
@@ -105,11 +66,12 @@
 			children = (
 				2ECDADC21C01057100536C62 /* AppDelegate.swift */,
 				2ECDADC61C01057100536C62 /* Main.storyboard */,
-				2EEEEC121C016AB100536C62 /* WordViewController.swift */,
 				2ECDADD41C010E0C00536C62 /* WordPickerViewController.swift */,
 				2ECDADD61C013BB600536C62 /* WordPickerViewCell.swift */,
+				2EEEEC121C016AB100536C62 /* WordViewController.swift */,
+				2E57A1131C02197100536C62 /* ResourceCache.swift */,
+				2E73AEC41C01E17F00536C62 /* LateralViewController.swift */,
 				2E3270971C0195F900536C62 /* TransitionManager.swift */,
-				2E3270991C019DD700536C62 /* Observable-Swift */,
 				2ECDADC91C01057100536C62 /* Assets.xcassets */,
 				2ECDADCB1C01057100536C62 /* LaunchScreen.storyboard */,
 				2ECDADCE1C01057100536C62 /* Info.plist */,
@@ -175,7 +137,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E3270A91C019DD700536C62 /* Info.plist in Resources */,
 				2ECDADCD1C01057100536C62 /* LaunchScreen.storyboard in Resources */,
 				2ECDADCA1C01057100536C62 /* Assets.xcassets in Resources */,
 				2ECDADC81C01057100536C62 /* Main.storyboard in Resources */,
@@ -189,20 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E57A1141C02197100536C62 /* ResourceCache.swift in Sources */,
 				2ECDADD71C013BB600536C62 /* WordPickerViewCell.swift in Sources */,
-				2E3270A81C019DD700536C62 /* EventSubscription.swift in Sources */,
 				2E3270981C0195F900536C62 /* TransitionManager.swift in Sources */,
-				2E3270A71C019DD700536C62 /* EventReference.swift in Sources */,
-				2E3270AD1C019DD700536C62 /* ObservableReference.swift in Sources */,
-				2E3270AB1C019DD700536C62 /* ObservableChainingProxy.swift in Sources */,
-				2E3270B01C019DD700536C62 /* TupleObservable.swift in Sources */,
-				2E3270AA1C019DD700536C62 /* Observable.swift in Sources */,
 				2ECDADD51C010E0C00536C62 /* WordPickerViewController.swift in Sources */,
 				2EEEEC131C016AB100536C62 /* WordViewController.swift in Sources */,
-				2E3270AF1C019DD700536C62 /* Protocols.swift in Sources */,
-				2E3270AC1C019DD700536C62 /* ObservableProxy.swift in Sources */,
-				2E3270A61C019DD700536C62 /* Event.swift in Sources */,
-				2E3270AE1C019DD700536C62 /* OwningEventReference.swift in Sources */,
+				2E73AEC51C01E17F00536C62 /* LateralViewController.swift in Sources */,
 				2ECDADC31C01057100536C62 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
