@@ -57,13 +57,71 @@
         </div>
     </section>
 
-    <section id='about'>
+    <section id='about' class='white-bg'>
+        <div class="container">
+            <div class='section-module'>
+                <div class="row section-divider">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">Our Amazing Team</h2>
+                        <h3 class="section-subheading text-muted">We're awesome.</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="team-member">
+                            <img src="img/team/yinghua.jpg" class="img-responsive img-circle" alt="">
+                            <h4>Yinghua Yang</h4>
+                            <p class="text-muted">Designer</p>
+                            <ul class="list-inline social-buttons">
+                                <li><a href="https://github.com/yinghuayang" target="_blank"><i class="fa fa-github"></i></a>
+                                </li>
+                                <li><a href="http://www.yangyinghua.xyz" target="_blank"><i class="fa fa-user"></i></a>
+                                </li>
+                                <li><a href="https://www.facebook.com/yinghua.yang.cn" target="_blank"><i class="fa fa-facebook"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="team-member">
+                            <img src="img/team/richard.jpg" class="img-responsive img-circle" alt="">
+                            <h4>Richard Wei</h4>
+                            <p class="text-muted">iOS Developer</p>
+                            <ul class="list-inline social-buttons">
+                                <li><a href="https://github.com/xinranmsn" target="_blank"><i class="fa fa-github"></i></a>
+                                <li><a href="http://rwei.me" target="_blank"><i class="fa fa-user"></i></a>
+                                </li>
+                                <li><a href="https://www.facebook.com/xinranmsn1" target="_blank"><i class="fa fa-facebook"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="team-member">
+                            <img src="img/team/dan.png" class="img-responsive img-circle" alt="">
+                            <h4>Dan Zheng</h4>
+                            <p class="text-muted">Web Developer</p>
+                            <ul class="list-inline social-buttons">
+                                <li><a href="https://github.com/Dan-Zheng" target="_blank"><i class="fa fa-github"></i></a>
+                                </li>
+                                <li><a href="http://danzheng.me" target="_blank"><i class="fa fa-user"></i></a>
+                                </li>
+                                <li><a href="https://www.facebook.com/VoidQuery" target="_blank"><i class="fa fa-facebook"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id='demo'>
         <div class='container text-center'>
             <div class='section-module'>
-                <h2 class='section-center section-divider'>Demo</h1>
+                <h2 class='section-center section-title'>Demo</h1>
                 <div class='wrap'>
                     <iframe src="https://player.vimeo.com/video/139043174" width="800px" height="480px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/139043174">Accent!</a> from <a href="https://vimeo.com/user33161213">杨英华&#039;s work I</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
                 </div>
