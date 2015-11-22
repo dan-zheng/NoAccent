@@ -8,7 +8,7 @@
 
 import UIKit
 
-class WordPickerViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class WordPickerViewController: UIViewController {
     
     @IBOutlet var tableView: UITableView!
     
@@ -16,8 +16,9 @@ class WordPickerViewController: UIViewController, UITableViewDelegate, UITableVi
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
+        ResourceCache.sharedCache["CalibrationImage"] = UIImage(named: "front_view_calibration")
     }
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -26,6 +27,11 @@ class WordPickerViewController: UIViewController, UITableViewDelegate, UITableVi
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+        
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        UIApplication.sharedApplication().statusBarStyle = .Default
     }
 
     override func didReceiveMemoryWarning() {
@@ -33,6 +39,9 @@ class WordPickerViewController: UIViewController, UITableViewDelegate, UITableVi
         // Dispose of any resources that can be recreated.
     }
 
+}
+
+extension WordPickerViewController: UITableViewDataSource, UITableViewDelegate {
     // MARK: - Table view data source
 
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
