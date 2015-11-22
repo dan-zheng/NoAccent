@@ -39,7 +39,8 @@
         <div class='container'>
             <div class='section-module'>
                 <h2 class='relative-center section-divider text-center'>About</h2>
-                <h3 class='purple relative-center section-divider text-center'>What?</h3>
+                <h3 class='white text-center section-divider'>Our app, explained.</h3>
+                <h3 class='purple heavy relative-center section-divider text-center'>What?</h3>
                 <h4 class="white">
                     <ul>
                         <li>For a foreigner, learning to speak a new language is challenging.</li>
@@ -47,11 +48,11 @@
                         <li>Losing an accent isn't easy.</li>
                     </ul>
                 </h4>
-                <h3 class='purple relative-center section-center section-divider text-center'>Why?</h3>
+                <h3 class='purple heavy relative-center section-center section-divider text-center'>Why?</h3>
                 <h4 class="white">
                     <span class='purple'>NoAccent!</span> helps users correct their accents by using visual and audio input to provide suggestions for improvement.
                 </h4>
-                <h3 class='purple relative-center section-center section-divider text-center'>How?</h3>
+                <h3 class='purple heavy relative-center section-center section-divider text-center'>How?</h3>
                 <h4 class="white">
                     <ul>
                         <li><span class='purple'>NoAccent!</span> records the user's mouth while he/she speaks. It overlays an animation of the mouth movement for native English speakers over user's mouth movement.</li>

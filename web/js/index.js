@@ -23,7 +23,7 @@ $(document).ready(function() {
 });
 
 function registerNavButtons() {
-  var sections = ['home', 'about', 'demo'];
+  var sections = ['home', 'about', 'team', 'demo'];
 
   sections.forEach(function(section) {
     clickAndScroll('#nav-' + section, '#' + section);
