@@ -62,7 +62,7 @@
             <div class='section-module'>
                 <div class="row section-divider">
                     <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">Our Amazing Team</h2>
+                        <h2 class="section-heading">Our Team</h2>
                         <h3 class="section-subheading text-muted">We're awesome.</h3>
                     </div>
                 </div>
