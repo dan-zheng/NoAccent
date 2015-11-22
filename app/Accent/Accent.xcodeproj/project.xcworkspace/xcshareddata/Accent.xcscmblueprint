@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B5F9C38DE98ECBF5FBEBECA7F7B1703B33E26E4C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B5F9C38DE98ECBF5FBEBECA7F7B1703B33E26E4C" : 0,
+    "BB5E3553DA9CC57A2E53427B4C04D67FC583E435" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CA2043FF-6646-4638-B0F8-1791F1A214BC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B5F9C38DE98ECBF5FBEBECA7F7B1703B33E26E4C" : "No-Accent\/",
+    "BB5E3553DA9CC57A2E53427B4C04D67FC583E435" : "No-Accent\/app\/Accent\/Accent\/Observable-Swift\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Accent",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "app\/Accent\/Accent.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Dan-Zheng\/No-Accent.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B5F9C38DE98ECBF5FBEBECA7F7B1703B33E26E4C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/slazyk\/Observable-Swift",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BB5E3553DA9CC57A2E53427B4C04D67FC583E435"
+    }
+  ]
+}
