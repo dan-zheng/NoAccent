@@ -17,6 +17,7 @@
                 <li><a class="page-scroll" id='nav-about' href='#about'>About</a>
                 <li><a class="page-scroll" id='nav-team' href='#team'>Team</a>
                 <li><a class="page-scroll" id='nav-demo' href='#demo'>Demo</a></li>
+                <li><a class="page-scroll" id='nav-tech' href='#tech'>Tech</a></li>
             </ul>
         </div>
     </div>

@@ -29,8 +29,9 @@
     <section>
         <div class='container text-center'>
             <div class='section-module'>
-                <h1 class='section-center section-divider text-center' id='title'><img id='cat' src='cat-nobg.png'></img>NoAccent!</h1>
+                <h1 class='section-center section-divider text-center' id='title'><img class='cat' src='cat-nobg.png'></img>NoAccent!</h1>
                 <h3 class='section-divider' id='subtitle'>A foreign accent correction app.</h3>
+                <h4 class='section-divider'>(featuring Space Cat!)</h4>
                 <ul class="list-inline social-buttons">
                     <li><a id='big-icon' href="https://github.com/Dan-Zheng/No-Accent" target="_blank"><i class="fa fa-github"></i></a>
                     </li>
@@ -45,13 +46,12 @@
         <div class='container'>
             <div class='section-module'>
                 <h2 class='relative-center section-divider text-center'>About</h2>
-                <h3 class='white text-center section-divider'>Our app, explained.</h3>
+                <h3 class='white text-center section-divider'>Our app, explained.<img class='cat-small' src='cat-nobg.png'></h3>
                 <h3 class='purple heavy relative-center section-divider text-center'>What?</h3>
                 <h4 class="white">
-                    <ul>
-                        <li>For a foreigner, learning to speak a new language is challenging.</li>
-                        <li>Pronunciation can be especially difficult for people who don't have exposure to authentic speakers of the language that they're trying to learn.</li>
-                        <li>Correcting an accent isn't easy..</li>
+                    <ul class="list-space">
+                        <li>For a foreigner, learning to speak a new language can be challenging and intimidating.</li>
+                        <li>Correcting an accent isn't easy, and sometimes people are treated differently based on their accents.</li>
                     </ul>
                 </h4>
                 <h3 class='purple heavy relative-center section-center section-divider text-center'>Why?</h3>
@@ -59,10 +59,14 @@
                     <span class='purple'>NoAccent!</span> helps users correct their accents by using visual and audio input to provide suggestions for improvement.
                 </h4>
                 <h3 class='purple heavy relative-center section-center section-divider text-center'>How?</h3>
-                <h4 class="white">
-                    <ul>
-                        <li><span class='purple'>NoAccent!</span> records the user's mouth while he/she speaks. It overlays an animation of the mouth movement for native English speakers over user's mouth movement.</li>
-                        <li>The app also provides a lateral view comparison that approximates a user's lip and tongue positions.</li>
+                <h4 class="white list-space">
+                    <ul class="list-space">
+                        <li><span class='purple'>NoAccent!</span> focuses on correcting pronunciation at the smallest level, one word at a time! <span class='green'>Space Cat, an authentic speaker of English, lends us a hand!</span></li>
+                        <li>The app interface features a list of commonly mispronounced English words. Users can pick a word from the list that they want to practice.</li>
+                        <li>From there, <span class='purple'>NoAccent!</span> records a user's mouth movements while he/she pronounces the word.</li>
+                        <li>Then, two views of the user's mouth are generated: a frontal view and a lateral view.</li>
+                        </li>The frontal view overlays an animation of the mouth movement of <span class='green'>Space Cat</span> over the user's mouth movement for the word.</li>
+                        <li>The app also provides a lateral view that analyzes sound frequencies to approximates the user's lip and tongue positions and compares positional differences between the user and <span class='green'>Space Cat</span>.</li>
                     </ul>
                 </h4>
             </div>
@@ -140,6 +144,27 @@
                     <img class='auto-resize section-divider' src='img/front.png'></img>
                     <img class='auto-resize section-divider' src='img/lateral.png'></img>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section id='tech'>
+        <div class='container'>
+            <div class='section-module'>
+                <h2 class='text-center section-heading'>Technologies</h2>
+                <h3 class='text-center section-title'>A list of our technologies.</h3>
+                <h4>
+                    <ul class="list-space section-title">
+                        <li><span class='purple'>Xcode/Swift:</span> iOS development</li>
+                        <li><span class='purple'>HTML/CSS/JS, Bootstrap:</span> website</li>
+                        <li><span class='purple'>Praat:</span> spectrograms (visual representations of audio input)</li>
+                    </ul>
+                    <div class='text-center'>
+                        <img class='force-resize section-divider' src='img/praat_beef.png'></img>
+                        <img class='force-resize section-divider' src='img/praat_bed.png'></img>
+                    </div>
+
+                </h4>
             </div>
         </div>
     </section>
