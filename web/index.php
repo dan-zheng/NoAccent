@@ -138,7 +138,7 @@
         <div class='container text-center'>
             <div class='section-module'>
                 <h2 class='text-center section-heading'>Demo</h2>
-                <h3 class='white text-center section-title'>Here's a mockup of our app.</h3>
+                <h3 class='white text-center section-title'>Here are some images of our app.</h3>
                 <div class='text-center wrap'>
                     <!--<iframe id='demo-video' src="https://player.vimeo.com/video/139043174" width="960px" height="540px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
                     <img class='auto-resize section-divider' src='img/front.png'></img>
