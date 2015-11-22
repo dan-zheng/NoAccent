@@ -9,7 +9,7 @@
                     <span class='icon-bar'></span>
                 </button>
                 <a class='navbar-brand page-scroll' href='index.php'>
-                    <i class='icon-picker fa fa-terminal'></i>No Accent!
+                    <i class='icon-picker fa fa-comments-o'></i>No Accent!
                 </a>
             </div>
             <div class='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
