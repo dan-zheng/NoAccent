@@ -11,8 +11,8 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/header.css" type="text/stylesheet">
     <link rel="stylesheet" href="css/fonts.css" type="text/stylesheet">
-    <link rel="stylesheet" href="css/index.css" type="text/stylesheet">
     <link rel="stylesheet" href="css/whale.css" type="text/stylesheet">
+    <link rel="stylesheet" href="css/index.css" type="text/stylesheet">
 
     <style>
         #tagged-text { display: none; }
@@ -28,8 +28,8 @@
 
 <body>
   <div class='container text-center'>
-      <h1 class='section-divider' id='title'>No Accent</h1>
-      <h3 class='section-divider' id='subtitle'>(Still a work in progress!)</h3>
+      <h1 class='section-divider' id='title'>No Accent!</h1>
+      <h3 class='section-divider' id='subtitle'>A foreign accent correction app!</h3>
       <div class="whale">
           <div class="fountain"></div>
       </div>
