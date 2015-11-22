@@ -29,8 +29,7 @@
 <body>
   <div class='container text-center'>
       <div class='section-module'>
-          <img id='cat' src='cat-nobg.png'></img>
-          <h1 class='section-divider' id='title'>No Accent!</h1>
+          <h1 class='section-center section-divider' id='title'><img id='cat' src='cat-nobg.png'></img>No Accent!</h1>
           <h3 class='section-divider' id='subtitle'>A foreign accent correction app.</h3>
       </div>
       <div class='section-module'>

@@ -26,7 +26,8 @@ h3 {
     padding: 25px 0;
 }
 #cat {
-    width: 40%;
+    padding-right: 10px;
+    width: 15%;
 }
 .section-divider {
     margin-top: 7.5px;
@@ -39,6 +40,11 @@ h3 {
 .section-text {
     margin-top: 0;
     margin-bottom: 5px;
+}
+.section-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .videoWrapper {
 	position: relative;
@@ -59,7 +65,7 @@ h3 {
         width: 764px;
     }
     h1 {
-    	font-size: 9em;
+    	font-size: 7em;
     }
     h2 {
         font-size: 3.4em;
@@ -82,7 +88,7 @@ h3 {
         margin-bottom: 25px;
     }
     h1 {
-    	font-size: 10em;
+    	font-size: 8em;
     }
     h2 {
         font-size: 3.6em;
@@ -95,20 +101,18 @@ h3 {
         margin-bottom: 150px;
     }
 }
-/*
 @media (min-width: 992px) {
     #main {
         width: 967px;
     }
     h1 {
-        font-weight: bold;
-    	font-size: 4em;
+    	font-size: 10em;
     }
     h2 {
-        font-size: 1.6em;
+        font-size: 3.6em;
     }
     h3 {
-        font-size: 1.4em;
+        font-size: 3.2em;
     }
 }
 @media (min-width: 1096px) {
@@ -116,14 +120,13 @@ h3 {
         width: 1068px;
     }
     h1 {
-        font-weight: bold;
-    	font-size: 4.5em;
+    	font-size: 11em;
     }
     h2 {
-        font-size: 1.8em;
+        font-size: 3.6em;
     }
     h3 {
-        font-size: 1.6em;
+        font-size: 3.2em;
     }
 }
 @media (min-width: 1200px) {
@@ -131,14 +134,13 @@ h3 {
         width: 1170px;
     }
     h1 {
-        font-weight: bold;
-    	font-size: 5em;
+    	font-size: 12em;
     }
     h2 {
-        font-size: 2em;
+        font-size: 3.6em;
     }
     h3 {
-        font-size: 1.8em;
+        font-size: 3.2em;
     }
 }*/
 
