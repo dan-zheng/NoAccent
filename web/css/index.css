@@ -46,6 +46,9 @@ h3 {
     font-weight: 100;
     font-size: 1.6em;
 }
+#about h3 {
+    font-weight: 500;
+}
 h4 {
     color: #222;
     font-weight: 100;
@@ -71,6 +74,10 @@ h4 {
     margin: 0;
     padding-right: 10px;
     width: 15%;
+}
+#cat-small {
+    margin: 0;
+    width: 40px;
 }
 .section-divider {
     margin-top: 7.5px;
@@ -99,6 +106,10 @@ h4 {
 	padding-top: 25px;*/
     margin: 0 5%;
     text-align: center;
+}
+.auto-resize {
+    max-width: 100%;
+    max-height: auto;
 }
 #demovideo {
     display: block;
@@ -266,4 +277,15 @@ a:active {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+footer {
+    padding: 2em;
+    text-align: center;
+    font-size: 1.2em;
+    color: #eee;
+    background-color: #2e2a61;
+}
+
+footer .fa-heart {
+    color: #f77380;
 }

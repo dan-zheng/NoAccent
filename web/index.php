@@ -10,7 +10,6 @@
     <link rel='stylesheet' href='bower_components/font-awesome/css/font-awesome.min.css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/header.css" type="text/stylesheet">
-    <link rel="stylesheet" href="css/footer.css" type="text/stylesheet">
     <link rel="stylesheet" href="css/fonts.css" type="text/stylesheet">
     <link rel="stylesheet" href="css/index.css" type="text/stylesheet">
 
@@ -39,20 +38,20 @@
     <section id='about' class='dark-bg'>
         <div class='container'>
             <div class='section-module'>
-                <h2 class='relative-center section-divider text-center'>What?</h2>
+                <h2 class='relative-center section-divider text-center'>About</h2>
+                <h3 class='purple relative-center section-divider text-center'>What?</h3>
                 <h4 class="white">
                     <ul>
                         <li>For a foreigner, learning to speak a new language is challenging.</li>
                         <li>Pronunciation can be especially difficult for people who don't have exposure to authentic speakers of the language.</li>
                         <li>Losing an accent isn't easy.</li>
                     </ul>
-
                 </h4>
-                <h2 class='relative-center section-center section-divider text-center'>Why?</h2>
+                <h3 class='purple relative-center section-center section-divider text-center'>Why?</h3>
                 <h4 class="white">
                     <span class='purple'>NoAccent!</span> helps users correct their accents by using visual and audio input to provide suggestions for improvement.
                 </h4>
-                <h2 class='relative-center section-center section-divider text-center'>How?</h2>
+                <h3 class='purple relative-center section-center section-divider text-center'>How?</h3>
                 <h4 class="white">
                     <ul>
                         <li><span class='purple'>NoAccent!</span> uses facial recognition to detect the user's mouth. It overlays an animation of the common mouth movement for native English speakers and the user's mouth movement recording with </li>
@@ -130,7 +129,9 @@
                 <h2 class='text-center section-heading'>Demo</h2>
                 <h3 class='white text-center section-title'>Here's a mockup of our app.</h3>
                 <div class='text-center wrap'>
-                    <iframe id='demo-video' src="https://player.vimeo.com/video/139043174" width="960px" height="540px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    <!--<iframe id='demo-video' src="https://player.vimeo.com/video/139043174" width="960px" height="540px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
+                    <img class='auto-resize section-divider' src='img/lateraldemo1.png'></img>
+                    <img class='auto-resize section-divider' src='img/lateraldemo2.png'></img>
                 </div>
             </div>
         </div>
