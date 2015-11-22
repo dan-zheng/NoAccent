@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>No Accent</title>
+    <title>NoAccent!</title>
     <meta charset="UTF-8">
     <link rel="shortcut icon" href='comments-o.ico'/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
@@ -10,8 +10,8 @@
     <link rel='stylesheet' href='bower_components/font-awesome/css/font-awesome.min.css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/header.css" type="text/stylesheet">
+    <link rel="stylesheet" href="css/footer.css" type="text/stylesheet">
     <link rel="stylesheet" href="css/fonts.css" type="text/stylesheet">
-    <link rel="stylesheet" href="css/whale.css" type="text/stylesheet">
     <link rel="stylesheet" href="css/index.css" type="text/stylesheet">
 
     <style>
@@ -24,40 +24,43 @@
     <script type="text/javascript" src='js/index.js'></script>
 </head>
 
-<nav class='navbar navbar-inverse navbar-fixed-top noselect'>
-    <div class='container'>
-        <div class='navbar-header page-scroll'>
-            <button type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='#bs-example-navbar-collapse-1' aria-expanded='false'>
-                <span class='sr-only'>Toggle navigation</span>
-                <span class='icon-bar'></span>
-                <span class='icon-bar'></span>
-                <span class='icon-bar'></span>
-            </button>
-            <a class='navbar-brand page-scroll' href='index.php'>
-                <i class='icon-picker fa fa-comments-o'></i>No Accent!
-            </a>
-        </div>
-        <div class='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
-            <ul class='nav navbar-nav navbar-right'>
-                <li><a class="page-scroll" href='#page-top'>Home</a></li>
-                <li><a class="page-scroll" id='nav-about' href='#about'>About</a>
-                <li><a class="page-scroll" id='nav-contact' href='#demo'>Demo</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
+<?php include("header.php");?>
 
-<body>
-    <section id='page-top'>
+<body id='home'>
+    <section>
         <div class='container text-center'>
           <div class='section-module'>
-              <h1 class='section-center section-divider text-center' id='title'><img id='cat' src='cat-nobg.png'></img>No Accent!</h1>
+              <h1 class='section-center section-divider text-center' id='title'><img id='cat' src='cat-nobg.png'></img>NoAccent!</h1>
               <h3 class='section-divider' id='subtitle'>A foreign accent correction app.</h3>
           </div>
         </div>
     </section>
 
-    <section id='about' class='white-bg'>
+    <section id='about' class='dark-bg'>
+        <div class='container'>
+            <div class='section-module'>
+                <h2 class='relative-center section-divider text-center'>What?</h2>
+                <h4 class="white">
+                    <ul>
+                        <li>For a foreigner, learning to speak a new language is challenging.</li>
+                        <li>Pronunciation can be especially difficult for people who don't have exposure to authentic speakers of the language.</li>
+                        <li>Losing an accent isn't easy.</li>
+                    </ul>
+                    <span class='purple'>NoAccent!</span> helps users correct their accents by using visual and audio input to provide suggestions for improvement.
+                </h4>
+                <h2 class='relative-center section-center section-divider text-center'>How?</h2>
+                <h4 class="white">
+                    <ul>
+                        <li><span class='purple'>NoAccent!</span> uses facial recognition to detect the user's mouth. It overlays an animation of the common mouth movement for native English speakers and the user's mouth movement recording with </li>
+                        <li>It also provides a lateral view comparison through analyzing sound frequencies to identify a user's lip and tongue position</li>
+                    </ul>
+                </h4>
+                <h2 class='relative-center section-center section-divider text-center'>Why?</h2>
+            </div>
+        </div>
+    </section>
+
+    <section id='team'>
         <div class="container">
             <div class='section-module'>
                 <div class="row section-divider">
@@ -118,16 +121,19 @@
         </div>
     </section>
 
-    <section id='demo'>
+    <section id='demo' class='dark-bg'>
         <div class='container text-center'>
             <div class='section-module'>
-                <h2 class='section-center section-title'>Demo</h1>
-                <div class='wrap'>
-                    <iframe src="https://player.vimeo.com/video/139043174" width="800px" height="480px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/139043174">Accent!</a> from <a href="https://vimeo.com/user33161213">杨英华&#039;s work I</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+                <h2 class='text-center section-heading'>Demo</h2>
+                <h3 class='white text-center section-title'>Here's a mockup of our app.</h3>
+                <div class='text-center wrap'>
+                    <iframe id='demo-video' src="https://player.vimeo.com/video/139043174" width="960px" height="540px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
             </div>
         </div>
     </section>
+
+<?php include("footer.php");?>
 </body>
 
 </html>
