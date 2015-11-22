@@ -46,6 +46,10 @@
                         <li>Pronunciation can be especially difficult for people who don't have exposure to authentic speakers of the language.</li>
                         <li>Losing an accent isn't easy.</li>
                     </ul>
+
+                </h4>
+                <h2 class='relative-center section-center section-divider text-center'>Why?</h2>
+                <h4 class="white">
                     <span class='purple'>NoAccent!</span> helps users correct their accents by using visual and audio input to provide suggestions for improvement.
                 </h4>
                 <h2 class='relative-center section-center section-divider text-center'>How?</h2>
@@ -55,7 +59,6 @@
                         <li>It also provides a lateral view comparison through analyzing sound frequencies to identify a user's lip and tongue position</li>
                     </ul>
                 </h4>
-                <h2 class='relative-center section-center section-divider text-center'>Why?</h2>
             </div>
         </div>
     </section>

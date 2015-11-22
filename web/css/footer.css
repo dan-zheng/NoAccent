@@ -1,9 +1,9 @@
 footer {
-    padding: 2em;
+    padding: 1em;
     text-align: center;
     font-size: 1.2em;
-    color: #222;
-    background-color: #eee;
+    color: #eee;
+    background-color: #2e2a61;
 }
 
 footer .fa-heart {
