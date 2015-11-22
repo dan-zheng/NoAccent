@@ -275,6 +275,9 @@ h4 {
 #tiny {
     font-size: 1.2em;
 }
+.strong {
+    font-weight: 700;
+}
 .list-space li {
     margin-bottom: 10px;
 }
