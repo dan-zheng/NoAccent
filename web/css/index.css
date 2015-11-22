@@ -276,9 +276,6 @@ a:hover, a:active {
 a:link {
     color: #837abb;
 }
-a:visited {
-    color: #9c2f6f;
-}
 a:hover, a:active {
     text-decoration: underline;
 }
