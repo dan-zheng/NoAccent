@@ -12,6 +12,7 @@ h1 {
     /*text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(255,255,255,.1), 0 0 5px rgba(255,255,255,.1), 0 1px 3px rgba(255,255,255,.3), 0 3px 5px rgba(255,255,255,.4), 0 5px 10px rgba(255,255,255,.5), 0 10px 10px rgba(255,255,255,.4), 0 20px 20px rgba(255,255,255,.3);*/
 }
 h2 {
+    color: #837abb;
     font-size: 2.2em;
 }
 h3 {
@@ -46,20 +47,22 @@ h3 {
     align-items: center;
     justify-content: center;
 }
-.videoWrapper {
+.wrap {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
 	padding-top: 25px;
-	height: 0;
+    margin: 0 10%;
 }
-.videoWrapper iframe {
+.wrap iframe {
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
 }
-
+#demo {
+    background-color: white;
+}
 @media (min-width: 784px) {
     #main {
         width: 764px;
@@ -68,7 +71,7 @@ h3 {
     	font-size: 7em;
     }
     h2 {
-        font-size: 3.4em;
+        font-size: 4.0em;
     }
     h3 {
         font-size: 3.0em;
@@ -91,7 +94,7 @@ h3 {
     	font-size: 8em;
     }
     h2 {
-        font-size: 3.6em;
+        font-size: 4.5em;
     }
     h3 {
         font-size: 3.2em;
@@ -109,7 +112,7 @@ h3 {
     	font-size: 10em;
     }
     h2 {
-        font-size: 3.6em;
+        font-size: 5.0em;
     }
     h3 {
         font-size: 3.2em;
@@ -123,7 +126,7 @@ h3 {
     	font-size: 11em;
     }
     h2 {
-        font-size: 3.6em;
+        font-size: 5.5em;
     }
     h3 {
         font-size: 3.2em;
@@ -137,7 +140,7 @@ h3 {
     	font-size: 12em;
     }
     h2 {
-        font-size: 3.6em;
+        font-size: 6em;
     }
     h3 {
         font-size: 3.2em;
