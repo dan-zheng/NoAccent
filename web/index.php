@@ -27,17 +27,27 @@
 <?php include("header.php");?>
 
 <body>
-  <div class='container text-center'>
-      <div class='section-module'>
-          <h1 class='section-center section-divider' id='title'><img id='cat' src='cat-nobg.png'></img>No Accent!</h1>
-          <h3 class='section-divider' id='subtitle'>A foreign accent correction app.</h3>
-      </div>
-      <div class='section-module'>
+    <section id='page-top'>
+        <div class='container text-center'>
+          <div class='section-module'>
+              <h1 class='section-center section-divider' id='title'><img id='cat' src='cat-nobg.png'></img>No Accent!</h1>
+              <h3 class='section-divider' id='subtitle'>A foreign accent correction app.</h3>
+          </div>
+        </div>
+    </section>
+
+    <section id='about'>
+    </section>
+
+    <section id='demo'>
+      <div class='text-center section-module'>
+          <h2>Demo</h1>
           <div class='videoWrapper'>
               <iframe src="https://player.vimeo.com/video/139043174" width="800px" height="480px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/139043174">Accent!</a> from <a href="https://vimeo.com/user33161213">杨英华&#039;s work I</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
           </div>
       </div>
-  </div>
+    </section>
+    <br><br><br><br><br><br><br><br><br><br><br>
 </body>
 
 </html>
