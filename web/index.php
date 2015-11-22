@@ -51,7 +51,7 @@
     <section id='page-top'>
         <div class='container text-center'>
           <div class='section-module'>
-              <h1 class='section-center section-divider' id='title'><img id='cat' src='cat-nobg.png'></img>No Accent!</h1>
+              <h1 class='section-center section-divider text-center' id='title'><img id='cat' src='cat-nobg.png'></img>No Accent!</h1>
               <h3 class='section-divider' id='subtitle'>A foreign accent correction app.</h3>
           </div>
         </div>
