@@ -31,6 +31,12 @@
             <div class='section-module'>
                 <h1 class='section-center section-divider text-center' id='title'><img id='cat' src='cat-nobg.png'></img>NoAccent!</h1>
                 <h3 class='section-divider' id='subtitle'>A foreign accent correction app.</h3>
+                <ul class="list-inline social-buttons">
+                    <li><a id='big-icon' href="https://github.com/Dan-Zheng/No-Accent" target="_blank"><i class="fa fa-github"></i></a>
+                    </li>
+                    <li><a id='big-icon' href="http://devpost.com/software/accent" target="_blank"><i class="fa fa-code"></i></a>
+                    </li>
+                </ul>
           </div>
         </div>
     </section>
@@ -44,8 +50,8 @@
                 <h4 class="white">
                     <ul>
                         <li>For a foreigner, learning to speak a new language is challenging.</li>
-                        <li>Pronunciation can be especially difficult for people who don't have exposure to authentic speakers of the language.</li>
-                        <li>Losing an accent isn't easy.</li>
+                        <li>Pronunciation can be especially difficult for people who don't have exposure to authentic speakers of the language that they're trying to learn.</li>
+                        <li>Correcting an accent isn't easy..</li>
                     </ul>
                 </h4>
                 <h3 class='purple heavy relative-center section-center section-divider text-center'>Why?</h3>
@@ -77,7 +83,7 @@
                         <div class="team-member">
                             <img src="img/team/yinghua.jpg" class="img-responsive img-circle" alt="">
                             <h4>Yinghua Yang</h4>
-                            <p class="text-muted">Designer</p>
+                            <p class="text-muted">Designer/Linguist</p>
                             <ul class="list-inline social-buttons">
                                 <li><a href="https://github.com/yinghuayang" target="_blank"><i class="fa fa-github"></i></a>
                                 </li>
