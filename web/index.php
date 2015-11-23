@@ -31,7 +31,7 @@
             <div class='section-module'>
                 <h1 class='section-center section-divider text-center' id='title'><img class='cat' src='cat-nobg.png'></img>NoAccent!</h1>
                 <h3 class='section-divider' id='subtitle'>A foreign accent correction app.</h3>
-                <h4 class='section-divider'>(featuring Space Cat!)</h4>
+                <h4 class='section-divider'>(featuring Groupon the Space Cat!)</h4>
                 <ul class="section-divider list-inline big-icon">
                     <li><a href="https://github.com/Dan-Zheng/No-Accent" target="_blank"><i class="fa fa-github"></i></a>
                     </li>
@@ -46,13 +46,13 @@
         <div class='container'>
             <div class='section-module'>
                 <h2 class='section-divider text-center'>About</h2>
-                <h3 class='white text-center section-divider'>Our app, explained.<img class='cat-small' src='cat-nobg.png'></h3>
+                <h3 class='white section-center text-center section-divider'>Our app, explained.<img class='cat-small' src='cat-nobg.png'></h3>
                 <h3 class='purple heavy section-paragraph section-center section-divider text-center'>Why?</h3>
                 <h4 class="white">
                     <ul class="list-space section-paragraph">
                         <li>For a foreigner, learning to speak a new language can be challenging and intimidating.</li>
                         <li>Correcting an accent isn't easy, and sometimes people are treated differently based on their accents.</li>
-                        <li>If you have an accent, your friends might be too polite to correct you.</li>
+                        <li>If you do have an accent, your friends might be too polite to correct you.</li>
                     </ul>
                 </h4>
                 <h3 class='purple heavy section-paragraph section-center section-divider text-center'>What?</h3>
@@ -172,9 +172,11 @@
         </div>
     </section>
 
-    <footer>
-      Made with <i class='fa fa-heart'></i> at <a href='http://wildhacks.org/'>WildHacks 2015</a>.
-      <img class='cat-footer' src='cat-nobg.png'></img>
+    <footer class='section-center'>
+    <p>
+        Made with <i class='fa fa-heart'></i> at <a href='http://wildhacks.org/'>WildHacks 2015</a>.
+        <img class='cat-footer' src='cat-nobg.png'></img>
+    </p>
     </footer>
 </body>
 
