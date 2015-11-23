@@ -45,21 +45,24 @@
     <section id='about' class='dark-bg'>
         <div class='container'>
             <div class='section-module'>
-                <h2 class='relative-center section-divider text-center'>About</h2>
+                <h2 class='section-divider text-center'>About</h2>
                 <h3 class='white text-center section-divider'>Our app, explained.<img class='cat-small' src='cat-nobg.png'></h3>
-                <h3 class='purple heavy relative-center section-divider text-center'>What?</h3>
+                <h3 class='purple heavy section-paragraph section-center section-divider text-center'>Why?</h3>
                 <h4 class="white">
-                    <ul class="list-space">
+                    <ul class="list-space section-paragraph">
                         <li>For a foreigner, learning to speak a new language can be challenging and intimidating.</li>
                         <li>Correcting an accent isn't easy, and sometimes people are treated differently based on their accents.</li>
+                        <li>If you have an accent, your friends might be too polite to correct you.</li>
                     </ul>
                 </h4>
-                <h3 class='purple heavy relative-center section-center section-divider text-center'>Why?</h3>
+                <h3 class='purple heavy section-paragraph section-center section-divider text-center'>What?</h3>
                 <h4 class="white">
-                    <span class='purple'>NoAccent!</span> helps users correct their accents by using visual and audio input to provide suggestions for improvement.
+                    <ul class="list-space section-paragraph">
+                        <li><span class='purple'>NoAccent!</span> helps users correct their accents by using visual and audio input to provide suggestions for improvement.</li>
+                    </ul>
                 </h4>
-                <h3 class='purple heavy relative-center section-center section-divider text-center'>How?</h3>
-                <h4 class="white list-space">
+                <h3 class='purple heavy section-paragraph section-center section-divider text-center'>How?</h3>
+                <h4 class="white">
                     <ul class="list-space">
                         <li><span class='purple'>NoAccent!</span> focuses on correcting pronunciation at the smallest level, one word at a time! <span class='green'>Space Cat, an authentic speaker of English, lends us a hand!</span></li>
                         <li>The app interface features a list of commonly mispronounced English words. Users can pick a word from the list that they want to practice.</li>
