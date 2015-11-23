@@ -9,6 +9,7 @@
 import UIKit
 import MobileCoreServices
 import MediaPlayer
+import QuickLook
 
 extension UIColor {
     convenience init(red: Int, green: Int, blue: Int) {
@@ -74,6 +75,11 @@ class WordViewController: UIViewController, UIGestureRecognizerDelegate {
         swipeGestureRecognizer.direction = .Right
         swipeGestureRecognizer.numberOfTouchesRequired = 1
         self.view.addGestureRecognizer(swipeGestureRecognizer)
+        
+        let lswipeGestureRecognizer = UISwipeGestureRecognizer(target: self, action: Selector("leftSwipeDetected:"))
+        lswipeGestureRecognizer.direction = .Left
+        lswipeGestureRecognizer.numberOfTouchesRequired = 1
+        self.view.addGestureRecognizer(lswipeGestureRecognizer)
         
         // action label
         actionLabel = UILabel(frame: CGRectMake(0.0, screenSize.height - cameraOffRect.height * 11 / 10, cameraOffRect.width, cameraOffRect.height / 10))
@@ -195,15 +201,17 @@ extension WordViewController: UIImagePickerControllerDelegate, UINavigationContr
     
     func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String: AnyObject]) {
         
-        let mediaType = info[UIImagePickerControllerMediaType] as! NSString
+//        let mediaType = info[UIImagePickerControllerMediaType] as! NSString
         
-        dismissViewControllerAnimated(true) {
-            // 3
-            if mediaType == kUTTypeMovie {
-                let moviePlayer = MPMoviePlayerViewController(contentURL: info[UIImagePickerControllerMediaURL] as! NSURL)
-                self.presentMoviePlayerViewControllerAnimated(moviePlayer)
-            }
-        }
+        let moviePlayer = MPMoviePlayerViewController(contentURL: info[UIImagePickerControllerMediaURL] as! NSURL)
+//        self.presentMoviePlayerViewControllerAnimated(moviePlayer)
+        moviePlayer.view.frame = self.cameraOnRect
+        self.view.addSubview(moviePlayer.view)
+        let qlvc = QLPreviewController()
+        qlvc.dataSource = self
+        qlvc.delegate = self
+        self.addChildViewController(qlvc)
+        self.view.addSubview(qlvc.view)
     }
         
 }
@@ -211,11 +219,23 @@ extension WordViewController: UIImagePickerControllerDelegate, UINavigationContr
 
 
 
-extension WordViewController {
+extension WordViewController : QLPreviewControllerDelegate, QLPreviewControllerDataSource {
     func rightSwipeDetected(recognizer: UIGestureRecognizer) {
         let position = recognizer.locationInView(self.view)
         if position.y < cameraController.view.frame.origin.y {
             back(recognizer)
         }
+    }
+    func leftSwipeDetected(recognizer: UIGestureRecognizer) {
+        let position = recognizer.locationInView(self.view)
+        if position.y < cameraController.view.frame.origin.y {
+            
+        }
+    }
+    func numberOfPreviewItemsInPreviewController(controller: QLPreviewController) -> Int {
+        return 1
+    }
+    func previewController(controller: QLPreviewController, previewItemAtIndex index: Int) -> QLPreviewItem {
+        return NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("bed_native_transperant_slow", ofType: "gif")!)
     }
 }

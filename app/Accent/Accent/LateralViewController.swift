@@ -12,8 +12,7 @@ class LateralViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,4 +31,9 @@ class LateralViewController: UIViewController {
     }
     */
 
+}
+extension LateralViewController {
+    func rightSwipeDetected(recognizer: UIGestureRecognizer) {
+        let position = recognizer.locationInView(self.view)
+    }
 }

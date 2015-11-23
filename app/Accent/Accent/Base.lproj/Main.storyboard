@@ -41,9 +41,6 @@
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="44"/>
                                 <color key="textColor" red="0.59999999999999998" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="29" y="20" width="349" height="65"/>
-                                </variation>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="109" y="28" width="183.5" height="42"/>
                                 </variation>
@@ -57,7 +54,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fQQ-tF-DA6" id="7S3-fA-YU7">
-                                            <rect key="frame" x="0.0" y="0.0" width="240" height="69.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="240" height="85"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K5s-6n-mSq">
@@ -109,9 +106,6 @@
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="20" y="87" width="360" height="493"/>
-                                </variation>
                                 <connections>
                                     <outlet property="dataSource" destination="KM6-ec-8w4" id="hJI-bz-n5o"/>
                                     <outlet property="delegate" destination="KM6-ec-8w4" id="Vqu-Cg-xQw"/>
@@ -137,15 +131,15 @@
                                 <exclude reference="CPU-7M-bJ3"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="5LZ-2G-yqm"/>
-                                <exclude reference="Noa-kn-gUr"/>
-                                <exclude reference="nXT-QD-y2z"/>
+                                <exclude reference="dWw-Rf-uKH"/>
+                                <exclude reference="gPy-jF-vph"/>
                                 <exclude reference="B1b-vm-hpb"/>
                                 <exclude reference="FnR-Xh-ogN"/>
                                 <exclude reference="Oyc-Qq-Woy"/>
                                 <exclude reference="n4M-I4-zfK"/>
-                                <exclude reference="dWw-Rf-uKH"/>
-                                <exclude reference="gPy-jF-vph"/>
+                                <exclude reference="5LZ-2G-yqm"/>
+                                <exclude reference="Noa-kn-gUr"/>
+                                <exclude reference="nXT-QD-y2z"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -154,15 +148,15 @@
                                 <include reference="CPU-7M-bJ3"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="5LZ-2G-yqm"/>
-                                <include reference="Noa-kn-gUr"/>
-                                <include reference="nXT-QD-y2z"/>
+                                <include reference="dWw-Rf-uKH"/>
+                                <include reference="gPy-jF-vph"/>
                                 <include reference="B1b-vm-hpb"/>
                                 <include reference="FnR-Xh-ogN"/>
                                 <include reference="Oyc-Qq-Woy"/>
                                 <include reference="n4M-I4-zfK"/>
-                                <include reference="dWw-Rf-uKH"/>
-                                <include reference="gPy-jF-vph"/>
+                                <include reference="5LZ-2G-yqm"/>
+                                <include reference="Noa-kn-gUr"/>
+                                <include reference="nXT-QD-y2z"/>
                             </mask>
                         </variation>
                     </view>
@@ -195,9 +189,6 @@
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="86"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="highlightedColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="40" y="92" width="320" height="98"/>
-                                </variation>
                             </label>
                         </subviews>
                         <animations/>

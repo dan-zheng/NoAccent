@@ -16,6 +16,7 @@
 		2ECDADCD1C01057100536C62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ECDADCB1C01057100536C62 /* LaunchScreen.storyboard */; };
 		2ECDADD51C010E0C00536C62 /* WordPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECDADD41C010E0C00536C62 /* WordPickerViewController.swift */; };
 		2ECDADD71C013BB600536C62 /* WordPickerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECDADD61C013BB600536C62 /* WordPickerViewCell.swift */; };
+		2ED2BEEF1C024B2400536C62 /* bed_native_transperant_slow.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2ED2BEEE1C024B2400536C62 /* bed_native_transperant_slow.gif */; };
 		2EEEEC131C016AB100536C62 /* WordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEEEC121C016AB100536C62 /* WordViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		2ECDADCE1C01057100536C62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2ECDADD41C010E0C00536C62 /* WordPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordPickerViewController.swift; sourceTree = "<group>"; };
 		2ECDADD61C013BB600536C62 /* WordPickerViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordPickerViewCell.swift; sourceTree = "<group>"; };
+		2ED2BEEE1C024B2400536C62 /* bed_native_transperant_slow.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bed_native_transperant_slow.gif; sourceTree = "<group>"; };
 		2EEEEC121C016AB100536C62 /* WordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +74,7 @@
 				2E57A1131C02197100536C62 /* ResourceCache.swift */,
 				2E73AEC41C01E17F00536C62 /* LateralViewController.swift */,
 				2E3270971C0195F900536C62 /* TransitionManager.swift */,
+				2ED2BEEE1C024B2400536C62 /* bed_native_transperant_slow.gif */,
 				2ECDADC91C01057100536C62 /* Assets.xcassets */,
 				2ECDADCB1C01057100536C62 /* LaunchScreen.storyboard */,
 				2ECDADCE1C01057100536C62 /* Info.plist */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ECDADCD1C01057100536C62 /* LaunchScreen.storyboard in Resources */,
+				2ED2BEEF1C024B2400536C62 /* bed_native_transperant_slow.gif in Resources */,
 				2ECDADCA1C01057100536C62 /* Assets.xcassets in Resources */,
 				2ECDADC81C01057100536C62 /* Main.storyboard in Resources */,
 			);
