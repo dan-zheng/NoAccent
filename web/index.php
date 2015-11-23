@@ -32,10 +32,10 @@
                 <h1 class='section-center section-divider text-center' id='title'><img class='cat' src='cat-nobg.png'></img>NoAccent!</h1>
                 <h3 class='section-divider' id='subtitle'>A foreign accent correction app.</h3>
                 <h4 class='section-divider'>(featuring Space Cat!)</h4>
-                <ul class="list-inline social-buttons">
-                    <li><a id='big-icon' href="https://github.com/Dan-Zheng/No-Accent" target="_blank"><i class="fa fa-github"></i></a>
+                <ul class="section-divider list-inline big-icon">
+                    <li><a href="https://github.com/Dan-Zheng/No-Accent" target="_blank"><i class="fa fa-github"></i></a>
                     </li>
-                    <li><a id='big-icon' href="http://devpost.com/software/accent" target="_blank"><i class="fa fa-code"></i></a>
+                    <li><a href="http://devpost.com/software/accent" target="_blank"><i class="fa fa-code"></i></a>
                     </li>
                 </ul>
           </div>
@@ -65,7 +65,7 @@
                         <li>The app interface features a list of commonly mispronounced English words. Users can pick a word from the list that they want to practice.</li>
                         <li>From there, <span class='purple'>NoAccent!</span> records a user's mouth movements while he/she pronounces the word.</li>
                         <li>Then, two views of the user's mouth are generated: a frontal view and a lateral view.</li>
-                        </li>The frontal view overlays an animation of the mouth movement of <span class='green'>Space Cat</span> over the user's mouth movement for the word.</li>
+                        <li>The frontal view overlays an animation of the mouth movement of <span class='green'>Space Cat</span> over the user's mouth movement for the word.</li>
                         <li>The app also provides a lateral view that analyzes sound frequencies to approximates the user's lip and tongue positions and compares positional differences between the user and <span class='green'>Space Cat</span>.</li>
                     </ul>
                 </h4>

@@ -8,10 +8,10 @@ body {
 img {
     margin: 0 auto;
 }
-ul.social-buttons {
+ul.social-buttons, ul.big-icon {
     margin-bottom: 0;
 }
-#big-icon {
+ul.big-icon li a{
     display: block;
     width: 60px;
     height: 60px;
@@ -24,11 +24,6 @@ ul.social-buttons {
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
-}
-#big-icon:hover,
-#big-icon:focus,
-#big-icon:active {
-    background-color: #5f5795;
 }
 ul.social-buttons li a {
     display: block;
@@ -47,7 +42,10 @@ ul.social-buttons li a {
 
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
-ul.social-buttons li a:active {
+ul.social-buttons li a:active,
+ul.big-icon li a:hover,
+ul.big-icon li a:focus,
+ul.big-icon li a:active {
     background-color: #5f5795;
 }
 h1 {
