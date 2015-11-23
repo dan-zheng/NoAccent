@@ -31,11 +31,11 @@
             <div class='section-module'>
                 <h1 class='section-center section-divider text-center' id='title'><img class='cat' src='cat-nobg.png'></img>NoAccent!</h1>
                 <h3 class='section-divider' id='subtitle'>A foreign accent correction app.</h3>
-                <h4 class='section-divider'>(featuring <span class="green">Space Cat!</span>)</h4>
-                <ul class="list-inline social-buttons">
-                    <li><a id='big-icon' href="https://github.com/Dan-Zheng/No-Accent" target="_blank"><i class="fa fa-github"></i></a>
+                <h4 class='section-divider'>(featuring Groupon the Space Cat!)</h4>
+                <ul class="section-divider list-inline big-icon">
+                    <li><a href="https://github.com/Dan-Zheng/No-Accent" target="_blank"><i class="fa fa-github"></i></a>
                     </li>
-                    <li><a id='big-icon' href="http://devpost.com/software/accent" target="_blank"><i class="fa fa-code"></i></a>
+                    <li><a href="http://devpost.com/software/accent" target="_blank"><i class="fa fa-code"></i></a>
                     </li>
                 </ul>
           </div>
@@ -45,27 +45,30 @@
     <section id='about' class='dark-bg'>
         <div class='container'>
             <div class='section-module'>
-                <h2 class='relative-center section-divider text-center'>About</h2>
-                <h3 class='white text-center section-divider'>Our app, explained.<img class='cat-small' src='cat-nobg.png'></h3>
-                <h3 class='purple heavy relative-center section-divider text-center'>What?</h3>
+                <h2 class='section-divider text-center'>About</h2>
+                <h3 class='white section-center text-center section-divider'>Our app, explained.<img class='cat-small' src='cat-nobg.png'></h3>
+                <h3 class='purple heavy section-paragraph section-center section-divider text-center'>Why?</h3>
                 <h4 class="white">
-                    <ul class="list-space">
+                    <ul class="list-space section-paragraph">
                         <li>For a foreigner, learning to speak a new language can be challenging and intimidating.</li>
                         <li>Correcting an accent isn't easy, and sometimes people are treated differently based on their accents.</li>
+                        <li>If you do have an accent, your friends might be too polite to correct you.</li>
                     </ul>
                 </h4>
-                <h3 class='purple heavy relative-center section-center section-divider text-center'>Why?</h3>
+                <h3 class='purple heavy section-paragraph section-center section-divider text-center'>What?</h3>
                 <h4 class="white">
-                    <span class='purple'>NoAccent!</span> helps users correct their accents by using visual and audio input to provide suggestions for improvement.
+                    <ul class="list-space section-paragraph">
+                        <li><span class='purple'>NoAccent!</span> helps users correct their accents by using visual and audio input to provide suggestions for improvement.</li>
+                    </ul>
                 </h4>
-                <h3 class='purple heavy relative-center section-center section-divider text-center'>How?</h3>
-                <h4 class="white list-space">
+                <h3 class='purple heavy section-paragraph section-center section-divider text-center'>How?</h3>
+                <h4 class="white">
                     <ul class="list-space">
                         <li><span class='purple'>NoAccent!</span> focuses on correcting pronunciation at the smallest level, one word at a time! <span class='green'>Space Cat, an authentic speaker of English, lends us a hand!</span></li>
                         <li>The app interface features a list of commonly mispronounced English words. Users can pick a word from the list that they want to practice.</li>
                         <li>From there, <span class='purple'>NoAccent!</span> records a user's mouth movements while he/she pronounces the word.</li>
                         <li>Then, two views of the user's mouth are generated: a frontal view and a lateral view.</li>
-                        </li>The frontal view overlays an animation of the mouth movement of <span class='green'>Space Cat</span> over the user's mouth movement for the word.</li>
+                        <li>The frontal view overlays an animation of the mouth movement of <span class='green'>Space Cat</span> over the user's mouth movement for the word.</li>
                         <li>The app also provides a lateral view that analyzes sound frequencies to approximates the user's lip and tongue positions and compares positional differences between the user and <span class='green'>Space Cat</span>.</li>
                     </ul>
                 </h4>
@@ -138,7 +141,7 @@
         <div class='container text-center'>
             <div class='section-module'>
                 <h2 class='text-center section-heading'>Demo</h2>
-                <h3 class='white text-center section-title'>Here's a mockup of our app.</h3>
+                <h3 class='white text-center section-title'>Here are some images of our app.</h3>
                 <div class='text-center wrap'>
                     <!--<iframe id='demo-video' src="https://player.vimeo.com/video/139043174" width="960px" height="540px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
                     <img class='auto-resize section-divider' src='img/front.png'></img>
@@ -169,7 +172,12 @@
         </div>
     </section>
 
-<?php include("footer.php");?>
+    <footer class='section-center'>
+    <p>
+        Made with <i class='fa fa-heart'></i> at <a href='http://wildhacks.org/'>WildHacks 2015</a>.
+        <img class='cat-footer' src='cat-nobg.png'></img>
+    </p>
+    </footer>
 </body>
 
 </html>
